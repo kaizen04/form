@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 align="center">HTML FORM</h1>
+    <form align="left">
+        <table align="center" cellspacing="15px" cellpadding="8px">
+          <tr>
+            <th>
+              <label for="fname" id="fname">FIRST NAME:</label>
+            </th>
+            <td>
+              <input type="text" name="firstName" id="fnameinput" placeholder="First Name">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="lname" id="lname" >LAST NAME:</label>
+            </th>
+            <td>
+              <input type="text" name="lastName" id="lnameinput" placeholder="Last Name">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="gender" id="gender">GENDER:</label>
+            </th>
+            <td>
+              <label for="mgender">
+                <input type="radio" name="gender" id="male">Male
+              </label>
+              <label for="fgender">
+                <input type="radio" name="gender" id="female">Female
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="age" id="age">AGE:</label>
+            </th>
+            <td>
+              <input type="number" name="age" id="ageinput" min="1" max="99" placeholder="age">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="Email Id" >EMAIL:</label>
+            </th>
+            <td>
+              <input type="email" name="emailinput" placeholder="Your email">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="password">PASSWORD:</label>
+            </th>
+            <td>
+              <input type="password" name="user-password" id="user-pwd" placeholder="Enter a strong password">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="interests">INTERESTS:</label>
+            </th>
+            <td>
+              <label for="maths">
+                <input type="checkbox" name="subject" id="maths">Movies
+              </label>
+              <label for="sceince">
+                <input type="checkbox" name="subject" id="science">Reading
+              </label>
+              <label for="english">
+                <input type="checkbox" name="subject" id="english">Music
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <button type="submit" name="Submit">Submit</button>
+            </td>
+            <td align="center">
+              <button type="reset" name="Reset">Reset</button>
+            </td>
+          </tr>
+        </table>
+    </form>
+  </body>
+</html>
